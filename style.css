@@ -65,9 +65,9 @@ body {
   transition-delay: 0.2s;
 }
 
-.nav-red.visible {
+/* .nav-red.visible {
   transition-delay: 0.2s;
-}
+} */
 
 .nav-white {
   background-color: #fff;
