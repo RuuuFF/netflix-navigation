@@ -4,8 +4,8 @@ const Nav = {
   boxes: document.querySelectorAll('.nav'),
 
   addListeners() {
-    Nav.open_btn.addEventListener('click', () => Nav.boxes.forEach(nav_el => nav_el.classList.add('visible')))
-    Nav.close_btn.addEventListener('click', () => Nav.boxes.forEach(nav_el => nav_el.classList.remove('visible')))
+    Nav.open_btn.addEventListener('click', () => Nav.boxes.forEach(box => box.classList.add('visible')))
+    Nav.close_btn.addEventListener('click', () => Nav.boxes.forEach(box => box.classList.remove('visible')))
   }
 }
 
